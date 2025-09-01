@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(images/Casino\ Card\ Background\ Wallpaper\ HD\ By\ Giozaga.jpg);
+    background-image: url(Casino\ Card\ Background\ Wallpaper\ HD\ By\ Giozaga.jpg);
     background-size: cover;
     background-color: rgb(99, 25, 37);
     font-family: sans-serif;
@@ -65,4 +65,5 @@ body {
 .money-display {
     margin: 25px 0;
     color:rgb(116, 231, 164)
+
 }
