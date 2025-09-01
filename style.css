@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Casino\ Card\ Background\ Wallpaper\ HD\ By\ Giozaga.jpg);
+    background-size: cover;
+    background-color: rgb(99, 25, 37);
+    font-family: sans-serif;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+#menu-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    outline: rgb(250, 206, 117) solid 6px;
+    border: rgb(198, 164, 96) solid 3px;
+    margin: 13% auto;
+    padding: 10px;
+    background-color: rgb(43, 18, 92);
+}
+#slots-container {
+    display: none;
+    background-color: rgb(93, 91, 100);
+    border: rgb(38, 38, 43) 5px solid;
+    flex-direction: column;
+    text-align: center;
+}
+#slot-num-container {
+    display: flex;
+    margin: 0;
+}
+#roll-slot-btn {
+    font-size: 50px;
+    background-color: rgb(124, 122, 133);
+    cursor: pointer;
+    color: whitesmoke;
+    text-shadow: whitesmoke 0px 0px 3px;
+}
+.slotNum {
+    font-size: 90px;
+    padding: 0.5em 0.75em;
+    background-color: beige;
+    margin: 15% 30px;
+    border: 4px rgb(202, 202, 163) solid;
+}
+.select-btn {
+    width: 10em;
+    height: 7em;
+    background-color: rgb(41, 86, 60);
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    border: rgb(184, 184, 184) solid 4px;
+    cursor: pointer;
+}
+#header {
+    color: whitesmoke;
+    text-shadow: whitesmoke 0px 0px 3px;
+    cursor: default;
+}
+.money-display {
+    margin: 25px 0;
+    color:rgb(116, 231, 164)
+}
